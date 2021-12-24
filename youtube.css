@@ -1,0 +1,9 @@
+/* Related / suggestions right sidebar */
+#related {
+    display: none
+}
+
+/* Comment block */
+ytd-comments {
+    display: none !important
+}
