@@ -2,7 +2,7 @@
     "name": "2climbers YouTube blocker",
     "version": "1.0.0",
     "manifest_version": 3,
-    "description": "Hide comments and suggestions on YouTube. Stay in control of your content.",
+    "description": "Hide comments and suggestions on YouTube, in order to stay focused on the content that you originally came for.",
     "host_permissions": [
         "https://www.youtube.com/*"
     ],
