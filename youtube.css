@@ -1,14 +1,50 @@
+/* We do nothing but block content. Here is what we hide: */
+
 /* All home page suggested content */
 ytd-browse[page-subtype="home"] {
     display: none
 }
 
-/* Related / suggestions right sidebar */
+/* Various menu items in left navigation */
+
+    #guide-content a[title="Explore"] {
+        display: none !important
+    }
+
+    #guide-content a[title="YouTube Premium"] {
+        display: none !important
+    }
+
+    #guide-content a[title="Movies & Shows"] {
+        display: none !important
+    }
+
+    #guide-content a[title="Gaming"] {
+        display: none !important
+    }
+
+    #guide-content a[title="Live"] {
+        display: none !important
+    }
+
+    #guide-content a[title="Fashion & Beauty"] {
+        display: none !important
+    }
+
+    #guide-content a[title="Learning"] {
+        display: none !important
+    }
+
+    #guide-content a[title="Sports"] {
+        display: none !important
+    }
+
+/* Related / suggestions, usually in right sidebar */
 #related {
     display: none
 }
 
-/* Comment block */
+/* Comment block below each video */
 ytd-comments {
     display: none !important
 }
