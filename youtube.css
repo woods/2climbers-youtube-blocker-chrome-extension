@@ -1,3 +1,8 @@
+/* All home page suggested content */
+ytd-browse[page-subtype="home"] {
+    display: none
+}
+
 /* Related / suggestions right sidebar */
 #related {
     display: none
